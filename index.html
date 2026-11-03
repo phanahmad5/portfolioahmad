@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Hopan Kurnia | Junior Frontend &amp; Web Developer</title>
+    <meta name="description"
+        content="Portofolio resmi Ahmad Hopan Kurnia - Lulusan Teknik Informatika berfokus pada pengembangan website dan aplikasi web yang cepat, rapi, dan berorientasi solusi.">
+    <meta name="author" content="Ahmad Hopan Kurnia">
+    <meta name="theme-color" content="#2563eb">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ahmad Hopan Kurnia | Junior Frontend &amp; Web Developer">
+    <meta property="og:description"
+        content="Lulusan Teknik Informatika berfokus pada pengembangan website dan aplikasi web yang responsif, fungsional, serta mudah digunakan.">
+    <meta property="og:image" content="phana.jpg">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ahmad Hopan Kurnia | Junior Frontend &amp; Web Developer">
+    <meta name="twitter:description" content="Membangun Aplikasi Web yang Cepat, Rapi, dan Berorientasi Solusi.">
+    <meta name="twitter:image" content="phana.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-mark">A</span>
+                <span class="logo-text">Ahmad Hopan Kurnia</span>
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active">Beranda</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#skills" class="nav-link">Keahlian</a>
+                <a href="#projects" class="nav-link">Proyek</a>
+                <a href="#experience" class="nav-link">Pengalaman</a>
+                <a href="#contact" class="nav-link">Kontak</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/628988160715?text=Halo%20Ahmad%2C%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    <span>Hubungi Saya</span>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu Navigasi" aria-expanded="false"
+                    aria-controls="navbar">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <!-- Hero Content (Left) -->
+                <div class="hero-content">
+
+
+                    <h1 class="hero-title">
+                        Membangun Aplikasi Web yang <span class="text-highlight">Cepat, Rapi,</span> dan Berorientasi
+                        Solusi.
+                    </h1>
+
+                    <p class="hero-desc">
+                        Halo, saya <strong>Ahmad Hopan Kurnia</strong>, lulusan Teknik Informatika yang berfokus pada
+                        pengembangan website dan aplikasi web yang responsif, fungsional, serta mudah digunakan. Saya
+                        senang menerjemahkan kebutuhan pengguna menjadi solusi digital melalui antarmuka yang intuitif
+                        dan struktur aplikasi yang terorganisasi.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Lihat Portofolio</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+
+                        <a href="https://wa.me/628988160715?text=Halo%20Ahmad%2C%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>Hubungi Saya</span>
+                        </a>
+
+                        <a href="CV_Ahmad_Hopan_Kurnia_ATS.pdf" download class="btn btn-secondary">
+                            <i class="fa-solid fa-download"></i>
+                            <span>Unduh CV</span>
+                        </a>
+                    </div>
+
+
+                    <!-- Factual Credentials & Focus Highlights -->
+                    <div class="stats-row">
+                        <div class="stat-card">
+                            <div class="stat-number">S.Kom.</div>
+                            <div class="stat-label">Teknik Informatika</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">RPL</div>
+                            <div class="stat-label">Rekayasa Perangkat Lunak</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">Frontend</div>
+                            <div class="stat-label">&amp; Web Development</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Image (Right) -->
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="image-wrapper">
+                            <img src="phana.jpg" alt="Foto Profil Ahmad Hopan Kurnia, S.Kom." class="profile-img"
+                                width="408" height="612" fetchpriority="high">
+                        </div>
+                        <div class="profile-floating-badge badge-role">
+                            <i class="fa-solid fa-code"></i>
+                            <div>
+                                <span class="badge-title">Junior Frontend</span>
+                                <span class="badge-subtitle">Web Developer</span>
+                            </div>
+                        </div>
+                        <div class="profile-floating-badge badge-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Jawa Barat, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge-tag">Tentang Saya</span>
+                    <h2 class="section-title">Dedikasi pada kode bersih dan fungsionalitas nyata.</h2>
+                    <p class="section-subtitle">
+                        Membangun solusi digital yang mengutamakan desain sederhana, antarmuka responsif, dan struktur
+                        kode yang rapi.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card highlight">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-user-check"></i>
+                        </div>
+                        <h3>Profil Profesional</h3>
+                        <p>
+                            Saya adalah lulusan Teknik Informatika yang berfokus pada pengembangan aplikasi web,
+                            khususnya antarmuka pengguna yang responsif dan mudah digunakan. Saya memiliki pengalaman
+                            mengembangkan proyek web, mulai dari membangun tampilan hingga mengintegrasikan fitur dengan
+                            backend dan database.
+                        </p>
+                        <p>
+                            Saya menggunakan teknologi seperti HTML, CSS, JavaScript, Tailwind CSS, PHP, Laravel, dan
+                            MySQL, serta terus mengembangkan kemampuan di bidang frontend development menggunakan React.
+                        </p>
+                        <p>
+                            Dalam setiap proyek, saya mengutamakan desain yang sederhana, struktur kode yang rapi,
+                            performa website, dan kebutuhan pengguna. Saya terbuka untuk berkolaborasi dalam
+                            pengembangan website maupun aplikasi web yang memberikan solusi nyata.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Pengembangan Frontend</h3>
+                        <p>
+                            Membangun antarmuka yang ramah pengguna, adaptif di berbagai resolusi layar, dan interaktif
+                            menggunakan teknologi standar HTML5 semantik, CSS3 modern, JavaScript (ES6+), Tailwind CSS,
+                            Bootstrap, serta eksplorasi komponen React.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3>Backend &amp; Database</h3>
+                        <p>
+                            Merancang logika alur bisnis aplikasi, autentikasi pengguna, relasi database MySQL yang
+                            terstruktur, dan implementasi endpoint REST API menggunakan framework PHP dan Laravel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge-tag">Keahlian Teknis</span>
+                    <h2 class="section-title">Teknologi yang saya gunakan.</h2>
+                    <p class="section-subtitle">
+                        Rangkaian teknologi relevan yang saya gunakan dalam pengembangan website dan aplikasi web dari
+                        perancangan hingga implementasi.
+                    </p>
+                </div>
+
+                <div class="skills-categories">
+                    <!-- Frontend -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skills-pill-grid">
+                            <div class="skill-item">
+                                <i class="fa-brands fa-html5 text-orange"></i>
+                                <div>
+                                    <div class="skill-name">HTML5</div>
+                                    <div class="skill-level">Semantik &amp; Aksesibilitas Web</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-css3-alt text-blue"></i>
+                                <div>
+                                    <div class="skill-name">CSS3</div>
+                                    <div class="skill-level">Flexbox, Grid &amp; Desain Responsif</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-js text-yellow"></i>
+                                <div>
+                                    <div class="skill-name">JavaScript (ES6+)</div>
+                                    <div class="skill-level">Manipulasi DOM &amp; Asinkron</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-bootstrap text-purple"></i>
+                                <div>
+                                    <div class="skill-name">Bootstrap</div>
+                                    <div class="skill-level">Tata Letak Responsif &amp; Komponen UI</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-wind text-teal"></i>
+                                <div>
+                                    <div class="skill-name">Tailwind CSS</div>
+                                    <div class="skill-level">Utility-First Styling &amp; Desain Modern</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-react text-cyan"></i>
+                                <div>
+                                    <div class="skill-name">React</div>
+                                    <div class="skill-level">Komponen UI &amp; State Management</div>
+                                    <span class="skill-badge-learning">Sedang Dikembangkan</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend & Database -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Backend &amp; Database</h3>
+                        </div>
+                        <div class="skills-pill-grid">
+                            <div class="skill-item">
+                                <i class="fa-brands fa-php text-indigo"></i>
+                                <div>
+                                    <div class="skill-name">PHP</div>
+                                    <div class="skill-level">Logika Backend &amp; OOP Dasar</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-laravel text-red"></i>
+                                <div>
+                                    <div class="skill-name">Laravel</div>
+                                    <div class="skill-level">Arsitektur MVC, Blade &amp; Routing</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-table text-blue"></i>
+                                <div>
+                                    <div class="skill-name">MySQL</div>
+                                    <div class="skill-level">Database Relasional &amp; Query SQL</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-network-wired text-green"></i>
+                                <div>
+                                    <div class="skill-name">REST API</div>
+                                    <div class="skill-level">Integrasi Layanan &amp; Pengolahan JSON</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Workflow -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Tools &amp; Workflow</h3>
+                        </div>
+                        <div class="skills-pill-grid">
+                            <div class="skill-item">
+                                <i class="fa-brands fa-git-alt text-orange"></i>
+                                <div>
+                                    <div class="skill-name">Git &amp; GitHub</div>
+                                    <div class="skill-level">Version Control &amp; Kolaborasi Kode</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-code text-blue"></i>
+                                <div>
+                                    <div class="skill-name">VS Code</div>
+                                    <div class="skill-level">Editor Utama &amp; Produktivitas</div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-figma text-purple"></i>
+                                <div>
+                                    <div class="skill-name">Figma</div>
+                                    <div class="skill-level">Review Desain UI &amp; Slicing ke Kode</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge-tag">Portofolio Proyek</span>
+                    <h2 class="section-title">Karya pilihan yang telah dikembangkan.</h2>
+                    <p class="section-subtitle">
+                        Studi kasus nyata yang mencakup perancangan antarmuka responsif, penulisan logika aplikasi, dan
+                        integrasi sistem.
+                    </p>
+                </div>
+
+                <!-- Projects Carousel Container -->
+                <div class="carousel-container">
+                    <button class="carousel-nav-btn prev" id="carouselPrev" aria-label="Geser ke kiri">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+
+                    <div class="projects-carousel" id="projectsCarousel">
+                        <div class="projects-track" id="projectsTrack">
+                            <!-- Project 1: Visual Configurator -->
+                            <article class="project-card">
+                                <div class="project-thumb">
+                                    <img src="designvisual.png" alt="Tampilan Antarmuka Visual Configurator" width="610"
+                                        height="373" loading="lazy">
+                                    <span class="project-badge">Featured App</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-tags">
+                                        <span class="tag">Tailwind CSS</span>
+                                        <span class="tag">PHP</span>
+                                        <span class="tag">Laravel</span>
+                                        <span class="tag">MySQL</span>
+                                    </div>
+                                    <h3 class="project-title">Visual Configurator</h3>
+                                    <div class="project-role">
+                                        <i class="fa-solid fa-code-commit"></i>
+                                        <span>Peran: Full Stack Developer</span>
+                                    </div>
+                                    <p class="project-text">
+                                        Aplikasi konfigurasi visual interaktif yang membantu pengguna menguji dan
+                                        memvisualisasikan rekomendasi desain, kombinasi elemen, serta palet warna secara
+                                        real-time.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Konfigurasi visual dan skema tema real-time.</li>
+                                        <li>Antarmuka interaktif dan responsif berbasis Tailwind CSS.</li>
+                                        <li>Struktur backend dan database terintegrasi dengan Laravel &amp; MySQL.</li>
+                                    </ul>
+                                    <div class="project-footer">
+                                        <a href="https://github.com/phanahmad5" target="_blank"
+                                            rel="noopener noreferrer" class="project-link outline">
+                                            <i class="fa-brands fa-github"></i>
+                                            <span>Repository</span>
+                                        </a>
+                                        <a href="http://visualconfigurator.my.id/" target="_blank"
+                                            rel="noopener noreferrer" class="project-link primary">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            <span>Live Demo</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Project 2: Phanix Attend (Sistem Absensi QR Code) -->
+                            <article class="project-card">
+                                <div class="project-thumb">
+                                    <img src="attend.png" alt="Sistem Manajemen Absensi QR Code Phanix Attend"
+                                        width="610" height="373" loading="lazy">
+                                    <span class="project-badge">Sistem Absensi</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-tags">
+                                        <span class="tag">Laravel</span>
+                                        <span class="tag">PHP</span>
+                                        <span class="tag">MySQL</span>
+                                        <span class="tag">JavaScript</span>
+                                    </div>
+                                    <h3 class="project-title">Sistem Absensi</h3>
+                                    <div class="project-role">
+                                        <i class="fa-solid fa-code-commit"></i>
+                                        <span>Peran: Web Developer</span>
+                                    </div>
+                                    <p class="project-text">
+                                        Sistem manajemen absensi berbasis QR Code dinamis yang dikembangkan untuk SMK
+                                        Muhammadiyah 1 Kadungora guna mendigitalisasi pencatatan presensi siswa dan
+                                        tenaga pendidik.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Pembuatan dan pemindaian kode QR presensi secara instan.</li>
+                                        <li>Dashboard admin untuk rekapitulasi data kehadiran harian dan bulanan.</li>
+                                        <li>Mempercepat alur verifikasi kehadiran dan meminimalisir kesalahan manual.
+                                        </li>
+                                    </ul>
+                                    <div class="project-footer">
+                                        <a href="https://github.com/phanahmad5" target="_blank"
+                                            rel="noopener noreferrer" class="project-link outline">
+                                            <i class="fa-brands fa-github"></i>
+                                            <span>Repository</span>
+                                        </a>
+                                        <span class="project-link disabled"
+                                            title="Aplikasi digunakan internal di lingkungan sekolah">
+                                            <i class="fa-solid fa-building-lock"></i>
+                                            <span>Sistem Internal</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Project 3: Phanix POS (Website Toko & Kasir) -->
+                            <article class="project-card">
+                                <div class="project-thumb">
+                                    <img src="jb.png" alt="Pratinjau Website Toko Online dan Kasir" width="1359"
+                                        height="641" loading="lazy">
+                                    <span class="project-badge">E-Commerce &amp; Kasir</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-tags">
+                                        <span class="tag">PHP</span>
+                                        <span class="tag">MySQL</span>
+                                        <span class="tag">Bootstrap</span>
+                                        <span class="tag">JavaScript</span>
+                                    </div>
+                                    <h3 class="project-title">Website - Toko Online</h3>
+                                    <div class="project-role">
+                                        <i class="fa-solid fa-code-commit"></i>
+                                        <span>Peran: Web Developer</span>
+                                    </div>
+                                    <p class="project-text">
+                                        Platform website toko dan kasir terintegrasi yang memudahkan pengelolaan katalog
+                                        barang, sistem keranjang belanja berbasis session, serta alur checkout
+                                        transaksi.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Manajemen etalase dan katalog produk dinamis.</li>
+                                        <li>Keranjang belanja belanja (cart) berbasis session pengguna.</li>
+                                        <li>Kalkulasi total harga otomatis dan ringkasan pesanan.</li>
+                                    </ul>
+                                    <div class="project-footer">
+                                        <a href="https://github.com/phanahmad5" target="_blank"
+                                            rel="noopener noreferrer" class="project-link outline">
+                                            <i class="fa-brands fa-github"></i>
+                                            <span>Repository</span>
+                                        </a>
+                                        <a href="https://bagsphanora.vercel.app/" target="_blank"
+                                            rel="noopener noreferrer" class="project-link primary">
+                                            <i class="fa-solid fa-laptop-code"></i>
+                                            <span>Live Demo</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Project 4: Website Undangan Digital -->
+                            <article class="project-card">
+                                <div class="project-thumb">
+                                    <img src="fsf.png" alt="Pratinjau Website Undangan Digital" width="915" height="596"
+                                        loading="lazy">
+                                    <span class="project-badge">Undangan Digital</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-tags">
+                                        <span class="tag">HTML5</span>
+                                        <span class="tag">CSS3</span>
+                                        <span class="tag">JavaScript</span>
+                                        <span class="tag">Tailwind CSS</span>
+                                    </div>
+                                    <h3 class="project-title">Website Undangan Digital</h3>
+                                    <div class="project-role">
+                                        <i class="fa-solid fa-code-commit"></i>
+                                        <span>Peran: Frontend Developer</span>
+                                    </div>
+                                    <p class="project-text">
+                                        Website undangan digital modern dan interaktif dengan pengalaman navigasi
+                                        mobile-first yang nyaman, elegan, dan mudah dibagikan kepada para tamu.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Desain mobile-first responsif dengan animasi transisi halus.</li>
+                                        <li>Pemutar musik latar dan hitung mundur tanggal acara otomatis.</li>
+                                        <li>Tata letak informasi acara dan integrasi peta lokasi.</li>
+                                    </ul>
+                                    <div class="project-footer">
+                                        <a href="https://github.com/phanahmad5" target="_blank"
+                                            rel="noopener noreferrer" class="project-link outline">
+                                            <i class="fa-brands fa-github"></i>
+                                            <span>Repository</span>
+                                        </a>
+                                        <a href="https://undangan-ahmad.vercel.app/" target="_blank"
+                                            rel="noopener noreferrer" class="project-link primary">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                            <span>Live Demo</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Project 5: Aplikasi Web Al-Quran Digital -->
+                            <article class="project-card">
+                                <div class="project-thumb">
+                                    <img src="webquran.png" alt="Pratinjau Aplikasi Web Al-Quran Digital" width="1366"
+                                        height="986" loading="lazy">
+                                    <span class="project-badge">Frontend App</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-tags">
+                                        <span class="tag">React</span>
+                                        <span class="tag">REST API</span>
+                                        <span class="tag">Tailwind CSS</span>
+                                        <span class="tag">JavaScript</span>
+                                    </div>
+                                    <h3 class="project-title">Aplikasi Web Al-Quran Digital</h3>
+                                    <div class="project-role">
+                                        <i class="fa-solid fa-code-commit"></i>
+                                        <span>Peran: Frontend Developer</span>
+                                    </div>
+                                    <p class="project-text">
+                                        Portal Al-Quran daring interaktif yang mengonsumsi REST API publik secara
+                                        efisien, menyajikan kemudahan membaca ayat suci dengan pencarian surat instan.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Pencarian surat instan berbasis kata kunci nama surat.</li>
+                                        <li>Teks ayat dalam tulisan Arab, transliterasi latin, dan terjemahan bahasa
+                                            Indonesia.</li>
+                                        <li>Integrasi pemutar audio murottal per ayat secara asinkron.</li>
+                                    </ul>
+                                    <div class="project-footer">
+                                        <a href="https://github.com/phanahmad5" target="_blank"
+                                            rel="noopener noreferrer" class="project-link outline">
+                                            <i class="fa-brands fa-github"></i>
+                                            <span>Repository</span>
+                                        </a>
+                                        <a href="https://www.smk1kadungora.my.id/" target="_blank"
+                                            rel="noopener noreferrer" class="project-link primary">
+                                            <i class="fa-solid fa-laptop-code"></i>
+                                            <span>Live Demo</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Project 6: Website Portofolio Pribadi -->
+                            <article class="project-card">
+                                <div class="project-thumb">
+                                    <img src="port.png" alt="Pratinjau Website Portofolio Pribadi" width="1354"
+                                        height="633" loading="lazy">
+                                    <span class="project-badge">Portofolio</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-tags">
+                                        <span class="tag">HTML5</span>
+                                        <span class="tag">CSS3</span>
+                                        <span class="tag">JavaScript (ES6+)</span>
+                                    </div>
+                                    <h3 class="project-title">Website Portofolio Pribadi</h3>
+                                    <div class="project-role">
+                                        <i class="fa-solid fa-code-commit"></i>
+                                        <span>Peran: Frontend Developer</span>
+                                    </div>
+                                    <p class="project-text">
+                                        Website portofolio yang dibangun dari awal tanpa framework berat untuk
+                                        mendemonstrasikan keahlian teknis, rekam jejak pendidikan, dan proyek nyata
+                                        secara terverifikasi.
+                                    </p>
+                                    <ul class="project-features">
+                                        <li>Desain clean modern dengan performa tinggi dan nol layout shift.</li>
+                                        <li>Komponen carousel responsif dengan kontrol ramah sentuh dan keyboard.</li>
+                                        <li>Formulir kontak langsung dengan validasi status pengiriman jujur.</li>
+                                    </ul>
+                                    <div class="project-footer">
+                                        <a href="https://github.com/phanahmad5" target="_blank"
+                                            rel="noopener noreferrer" class="project-link outline">
+                                            <i class="fa-brands fa-github"></i>
+                                            <span>Repository</span>
+                                        </a>
+                                        <a href="#home" class="project-link primary">
+                                            <i class="fa-solid fa-arrow-up"></i>
+                                            <span>Halaman Ini</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <button class="carousel-nav-btn next" id="carouselNext" aria-label="Geser ke kanan">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <!-- Carousel Dots Pagination -->
+                <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+        </section>
+
+        <!-- ================= EXPERIENCE & EDUCATION ================= -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge-tag">Pengalaman &amp; Pendidikan</span>
+                    <h2 class="section-title">Riwayat perjalanan profesional dan studi.</h2>
+                    <p class="section-subtitle">
+                        Perjalanan berkelanjutan dalam mengasah kemampuan teknis, memecahkan masalah praktis, dan
+                        menerapkan standar rekayasa perangkat lunak.
+                    </p>
+                </div>
+
+                <div class="timeline-container">
+                    <!-- Timeline Item 1: Bisnis Digital Phanix Bags -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="marker-dot current"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-period current">2025 - Sekarang</span>
+                                <span class="timeline-type">Bisnis Digital</span>
+                            </div>
+                            <h3 class="timeline-title">Bisnis Digital &amp; Operasional Web</h3>
+                            <h4 class="timeline-org">Phanora Bags — Jawa Barat</h4>
+                            <p class="timeline-text">
+                                Mengelola operasional platform e-commerce dan strategi teknologi digital untuk brand
+                                produk ritel tas secara mandiri.
+                            </p>
+                            <ul class="timeline-points">
+                                <li>Mengembangkan dan memelihara sistem penjualan e-commerce (katalog produk, keranjang
+                                    belanja, alur checkout).</li>
+                                <li>Mengoptimalkan rantai pasok dan koordinasi integrasi pengiriman dengan mitra
+                                    logistik.</li>
+                                <li>Menganalisis kebutuhan pasar serta menguji pengalaman antarmuka pengguna (User
+                                    Experience) langsung pada interaksi transaksi konsumen nyata.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2: Freelance Upwork & Klien Mandiri -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-period">2024 - Sekarang</span>
+                                <span class="timeline-type">Freelance / Remote</span>
+                            </div>
+                            <h3 class="timeline-title">Freelance Web Developer</h3>
+                            <h4 class="timeline-org">Upwork &amp; Klien Mandiri</h4>
+                            <p class="timeline-text">
+                                Menyediakan layanan pengembangan teknis secara remote dan mandiri, berkolaborasi dengan
+                                klien untuk menyelesaikan proyek web development dan optimasi antarmuka.
+                            </p>
+                            <ul class="timeline-points">
+                                <li>Menerjemahkan kebutuhan klien dan rancangan UI Figma menjadi website responsif
+                                    (mobile-first) dan landing page modern.</li>
+                                <li>Membangun antarmuka modular yang rapi menggunakan standar HTML5 semantik, Tailwind
+                                    CSS, dan JavaScript ES6+.</li>
+                                <li>Mengembangkan solusi web kustom seperti website undangan digital interaktif dan
+                                    optimasi kecepatan muat halaman klien.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3: Magang SMK Muhammadiyah 1 Kadungora -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-period">2025</span>
+                                <span class="timeline-type">Magang / Praktik Kerja</span>
+                            </div>
+                            <h3 class="timeline-title">Full Stack Web Developer (Magang)</h3>
+                            <h4 class="timeline-org">SMK Muhammadiyah 1 Kadungora, Garut</h4>
+                            <p class="timeline-text">
+                                Bertanggung jawab merancang dan mengembangkan aplikasi sistem absensi sekolah berbasis
+                                pemindaian QR Code dinamis untuk kebutuhan kehadiran siswa dan tenaga pendidik.
+                            </p>
+                            <ul class="timeline-points">
+                                <li>Membangun fitur pembuatan (generate) dan pemindaian (scanning) kode QR presensi
+                                    secara real-time.</li>
+                                <li>Membangun arsitektur database dan mengintegrasikan backend panel admin laporan
+                                    rekapitulasi kehadiran dengan Laravel &amp; MySQL.</li>
+                                <li>Melakukan pengujian (testing) dan pemeliharaan aplikasi untuk memastikan sistem
+                                    berjalan lancar dan akurat saat jam sibuk kehadiran sekolah.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 4: Pendidikan Institut Teknologi Garut -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-period">2022 - 2026</span>
+                                <span class="timeline-type">Pendidikan Formal</span>
+                            </div>
+                            <h3 class="timeline-title">S1 Teknik Informatika (S.Kom.)</h3>
+                            <h4 class="timeline-org">Institut Teknologi Garut (ITG) — IPK: 3.40</h4>
+                            <p class="timeline-text">
+                                Menyelesaikan studi sarjana ilmu komputer dengan fokus pendalaman pada konsentrasi
+                                Rekayasa Perangkat Lunak (Software Engineering).
+                            </p>
+                            <ul class="timeline-points">
+                                <li>Memperdalam algoritma pemrograman, rekayasa perangkat lunak (SDLC), struktur data,
+                                    dan arsitektur basis data relasional.</li>
+                                <li>Menerapkan prinsip perancangan antarmuka pengguna (UI/UX) dan pengembangan sistem
+                                    aplikasi web terstruktur sebagai wujud implementasi praktis kurikulum software
+                                    engineering.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 5: Sertifikasi Profesional -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-period">2026</span>
+                                <span class="timeline-type">Sertifikasi Profesional</span>
+                            </div>
+                            <h3 class="timeline-title">Lisensi &amp; Sertifikasi Kompetensi</h3>
+                            <h4 class="timeline-org">Certiport &amp; HubSpot Academy</h4>
+                            <p class="timeline-text">
+                                Sertifikasi resmi standar industri untuk memvalidasi keahlian teknis dalam manajemen
+                                basis data relasional dan strategi kehadiran digital.
+                            </p>
+                            <ul class="timeline-points">
+                                <li><strong>ITS (Information Technology Specialist) – Databases (2026):</strong> Standar
+                                    kompetensi industri dalam pemodelan data relasional, query SQL, dan integritas
+                                    database.</li>
+                                <li><strong>Digital Marketing Certification – HubSpot Academy (2026):</strong>
+                                    Sertifikasi pemahaman arsitektur web yang ramah SEO dan strategi konversi audiens.
+                                </li>
+                                <li><strong>Social Media Certification – HubSpot Academy (2026):</strong> Sertifikasi
+                                    strategi komunikasi dan kehadiran brand digital terpadu.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge-tag">Hubungi Saya</span>
+                    <h2 class="section-title">Mari diskusikan proyek Anda berikutnya.</h2>
+                    <p class="section-subtitle">
+                        Saya selalu terbuka untuk mendiskusikan peluang kerja, proyek freelance, maupun kolaborasi
+                        pengembangan website. Kirimkan pesan atau hubungi kontak langsung di bawah.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards (Left) -->
+                    <div class="contact-sidebar">
+                        <div class="contact-cards-list">
+                            <a href="mailto:phanahmad63@gmail.com" class="contact-channel-card">
+                                <div class="channel-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Alamat Email</span>
+                                    <span class="channel-value">phanahmad63@gmail.com</span>
+                                </div>
+                                <i class="fa-solid fa-arrow-up-right-from-square channel-action"></i>
+                            </a>
+
+                            <a href="https://wa.me/628988160715?text=Halo%20Ahmad%2C%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener noreferrer"
+                                class="contact-channel-card">
+                                <div class="channel-icon">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Telepon / WhatsApp</span>
+                                    <span class="channel-value">08988160715</span>
+                                </div>
+                                <i class="fa-solid fa-arrow-up-right-from-square channel-action"></i>
+                            </a>
+
+                            <div class="contact-channel-card static">
+                                <div class="channel-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Lokasi Saat Ini</span>
+                                    <span class="channel-value">Jawa Barat, Indonesia</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Profiles -->
+                        <div class="social-box">
+                            <span class="social-title">Terhubung di Media Sosial:</span>
+                            <div class="social-links-row">
+                                <a href="https://github.com/phanahmad5" target="_blank" rel="noopener noreferrer"
+                                    class="social-btn" aria-label="GitHub Ahmad Hopan Kurnia">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ahmad-hopan-kurnia-017621264" target="_blank"
+                                    rel="noopener noreferrer" class="social-btn"
+                                    aria-label="LinkedIn Ahmad Hopan Kurnia">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.instagram.com/ahmad_elsyamz20?mdxt=MWhtZzRjbGxyMHRzNA=="
+                                    target="_blank" rel="noopener noreferrer" class="social-btn"
+                                    aria-label="Instagram Ahmad Hopan Kurnia">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@nattzablade?_r=1&_t=ZS-9AyxYfT2d3U" target="_blank"
+                                    rel="noopener noreferrer" class="social-btn" aria-label="TikTok Ahmad Hopan Kurnia">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (Right) -->
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="clean-form" action="https://formsubmit.co/phanahmad63@gmail.com"
+                            method="POST" novalidate>
+                            <!-- Konfigurasi FormSubmit -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_subject" value="Pesan Baru dari Portofolio Ahmad Hopan Kurnia">
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Nama Lengkap <span class="text-danger">*</span></label>
+                                    <input type="text" id="name" name="name" class="form-control"
+                                        placeholder="Contoh: Budi Pratama" autocomplete="name" required
+                                        aria-required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Alamat Email <span class="text-danger">*</span></label>
+                                    <input type="email" id="email" name="email" class="form-control"
+                                        placeholder="nama@domain.com" autocomplete="email" required
+                                        aria-required="true">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subjek Pesan</label>
+                                <input type="text" id="subject" name="subject" class="form-control"
+                                    placeholder="Contoh: Tawaran Proyek Website">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Pesan Anda <span class="text-danger">*</span></label>
+                                <textarea id="message" name="message" rows="5" class="form-control"
+                                    placeholder="Ceritakan kebutuhan atau pertanyaan Anda..." required
+                                    aria-required="true"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                                <span>Kirim Pesan</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+
+                            <div id="formStatus" class="form-status-message" role="status" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-mark">A</span>
+                    <span class="logo-text">Ahmad Hopan Kurnia</span>
+                </a>
+                <p class="footer-desc">
+                    Junior Frontend &amp; Web Developer yang mengedepankan kualitas arsitektur kode, antarmuka
+                    responsif, dan solusi digital yang bermanfaat.
+                </p>
+            </div>
+
+            <div class="footer-nav">
+                <span class="footer-nav-title">Navigasi</span>
+                <div class="footer-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#skills">Keahlian</a>
+                    <a href="#projects">Proyek</a>
+                    <a href="#experience">Pengalaman</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+            </div>
+
+            <div class="footer-connect">
+                <span class="footer-nav-title">Koneksi</span>
+                <div class="footer-social-links">
+                    <a href="https://github.com/phanahmad5" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmad-hopan-kurnia-017621264" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/ahmad_elsyamz20?mdxt=MWhtZzRjbGxyMHRzNA==" target="_blank"
+                        rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@nattzablade?_r=1&_t=ZS-9AyxYfT2d3U" target="_blank"
+                        rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; 2026 Ahmad Hopan Kurnia</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button id="scrollTop" class="scroll-top-btn" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
